@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 240px;
+  min-height: 280px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Arial", sans-serif;
+  background-color: #ecf0f1;
+}
+.menu {
+  list-style: none;
+  width: 200px;
+  margin: 25px 10px;
+  padding: 0;
+  }
+  .menu .active a {
+   background-color: #1abc9c; 
+   border: 0;
+  }
+  .menu a:hover {
+   background-color: #2ecc71; 
+  }
+  .menu a {
+   text-decoration: none; 
+   display: block;
+   padding: 10px 15px;
+   background-color: #2980b9;
+   color:#ffffff;
+   border-bottom: 2px solid #2c3e50;
+   
+  }
