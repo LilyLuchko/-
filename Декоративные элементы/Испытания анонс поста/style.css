@@ -1,0 +1,109 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 280px;
+  min-height: 250px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  font-size: 12px;
+  line-height: 1.2;
+  font-family: "Arial", sans-serif;
+  color: #7f8c8d;
+
+  background-color: #ecf0f1;
+}
+
+.post-stats .icon {
+  width: 15px;
+  height: 15px;
+}
+
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Адреса картинок:
+quotes.png
+post-challenge.png
+Картинка «кавычки» выровнена по центру
+*/
+.post-title {
+  float: right;
+  color: #2980b9;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+.post-author {
+padding: 5px 20px 5px 10px;
+float: left;
+text-align: left;
+margin-right: 20px;
+}
+.post-date {
+  float:  left;
+  font-size: 15px;
+  margin-right: 10px;
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: center;
+ width: 55px;
+ height: 35px;
+ background-color: white;
+ border-bottom: 5px solid #bdc3c7;
+
+}
+.post-type {
+  display: inline-block;
+  float:left;
+  margin-top: 7px;
+ background-image: url("quotes.png"); 
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: #7f8c8d;
+  width: 55px;
+ height: 55px;
+ border-bottom: 5px solid #bdc3c7;
+ 
+}
+.post-author a, .post-stats a{
+ text-decoration: none; 
+}
+.post-text {
+  float: right;
+  margin-right: 10px;
+  height: 97px;
+  width: 165px;
+  padding: 10px 15px;
+  font-size: 12px;
+  color: #7f8c8d;
+  background-color: white;
+ border-bottom: 5px solid #bdc3c7;
+}
+.post>.post-text {
+  margin-left: 5px;
+}
+.post-stats {
+  float: left;
+  margin-left: 10px;
+  margin-right: -5px;
+}
+.icon-tags {
+  float:left;
+  margin-right: 5px;
+ background-image: url(post-challenge.png);
+}
+.icon-comments {
+  float:left;
+  background-image: url(post-challenge.png);
+  background-position: -20px 0; 
+  margin-left: 8px;
+  margin-right: 5px;
+}
+.post-author>a, .post-stats>a {
+ color: #2980b9; 
+}
