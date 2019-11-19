@@ -1,0 +1,15 @@
+/*Блоку .square задайте сплошную рамку толщиной 100px и цветом #ffffff
+измените цвет левой стороны рамки на #0074d9 а правой — на #2ecc40
+цвет верхней стороны — на #ff4136 нижней — на #ffdc00
+и, наконец, задайте .square нулевые ширину и высоту.*/
+.square {
+  margin: 100px auto;
+  width: 0;
+  height: 0;
+  background-color: #aaaaaa;
+  border: 100px solid #ffffff;
+  border-left-color: #0074d9;
+  border-right-color: #2ecc40;
+  border-top-color: #ff4136;
+  border-bottom-color: #ffdc00;
+}

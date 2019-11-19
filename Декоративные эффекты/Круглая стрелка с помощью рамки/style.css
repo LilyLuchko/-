@@ -1,0 +1,27 @@
+/*Псевдоэлементу .arrow-round::after:
+
+Задайте сплошную рамку толщиной 100px и цветом #ffffff, цвет нижней стороны рамки — #0074d9.
+Задайте координаты top: -45px и left: 130px.
+Обнулите толщину правой и верхней сторон рамки,
+левую сторону рамки сделайте прозрачной.*/
+.arrow-round {
+  position: relative;
+  margin: 100px auto;
+  width: 200px;
+  height: 200px;
+  border: 50px solid #0074d9;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+
+.arrow-round::after {
+  position: absolute;
+  content: "";
+  border: 100px solid #ffffff;
+  border-bottom-color: #0074d9;
+  top: -45px;
+  left: 130px;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-color: transparent;
+}

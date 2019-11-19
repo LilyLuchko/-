@@ -1,0 +1,23 @@
+/*Псевдоэлементу .arrow-right-long::after задайте сплошную рамку толщиной 40px и цветом #ffffff
+затем задайте ему позицию top: -25px и right: -30px
+обнулите толщину правой стороны рамки, а левой задайте цвет #0074d9
+а затем верхнюю и нижнюю стороны рамки сделайте прозрачными.*/
+.arrow-right-long {
+  position: relative;
+  margin: 150px auto;
+  width: 200px;
+  height: 30px;
+  background-color: #0074d9;
+}
+
+.arrow-right-long::after {
+  border: 40px solid #ffffff;
+  top: -25px;
+  right: -30px;
+  position: absolute;
+  content: "";
+  border-right-width: 0;
+  border-left-color: #0074d9;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
